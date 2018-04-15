@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "Playkot test task for node.js developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "test",
+    "playkot"
+  ],
+  "author": "",
+  "license": "ISC"
+}

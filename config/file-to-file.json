@@ -1,0 +1,11 @@
+{
+    "source": {
+        "type": "file",
+        "path": "data/from.txt"
+    },
+    "target": {
+        "filterType": ["ERROR", "WARNING", "INFO", "DEBUG"],
+        "type": "file",
+        "path": "data/to.txt"
+    }
+}

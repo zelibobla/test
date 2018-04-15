@@ -1,0 +1,14 @@
+{"type": "client", "error": "An application event log entry..", "timestamp": 1518176440, "user_id": 1, "environment": "prod"}
+<11>1 2003-10-11T22:14:15.003Z 127.0.0.1 app 10000 - - ERROR
+<12>1 2003-10-11T22:14:15.003Z - app 10000 - [info@app env="prod" type="server" some="data"][data@app some="data"] WARNING
+BadRequestError: request aborted
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:547:12)
+<13>1 2003-10-11T22:14:15.003Z 127.0.0.1 app - - [info@app env="prod" type="server"] INFO
+<14>1 2003-10-11T22:14:15.003Z 127.0.0.1 app 10000 - [info@app env="prod" type="server"] DEBUG
+{"type": "client", "message": "An application event log entry..", "timestamp": 1518176440, "user_id": 1, "environment": "prod", "ip": "127.0.0.1", "app": "client_app"}

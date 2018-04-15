@@ -1,0 +1,11 @@
+{
+    "source": {
+        "type": "file",
+        "path": "data/from.txt",
+        "filterOutLevels": ["ERROR", "WARNING"]
+    },
+    "target": {
+        "type": "file",
+        "path": "data/to-filtered.txt"
+    }
+}
